@@ -3,55 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    
+
     <title>Leo2||about</title>
 </head>
 <body>
-    <div class="content">
+    <div class="page-shell">
         <header>
-            <div class="headBanner">
-                <div class="BrandName">
-                    <h1>Leo2</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-secondary-subtle">
+                <div class="container py-2">
+                    <a class="navbar-brand fw-bold" href="index.html"><span class="brand-mark">✦</span> Leo2</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="siteNav">
+                        <div class="navbar-nav ms-auto gap-lg-2">
+                            <a class="nav-link" href="index.html">Home</a><a class="nav-link" href="tools.html">Feed</a><a class="nav-link active" href="about.html">About</a><a class="btn btn-outline-light btn-sm ms-lg-2" href="logIn.html">Log in</a>
+                        </div>
+                    </div>
                 </div>
-                
-                <nav class="navbar">
-                    <a href="index.html">home</a>
-                    <a href="tools.html">feed</a>
-                    <a href="about.html">about</a>
-                </nav>
-                <div class="icon">
-                    <a href="logIn.html">
-                        <button id="account">
-                            <img src="images/avatar.73670d0a1ec6f4bbf659.png" alt="profile pic" width="50" height="50">
-                        </button>
-                    </a>
-                </div>
-            </div>
+            </nav>
         </header>
-        <main>
-            <h3>About</h3>
-            <div class="mainContent about ">
-                <section class="whoWeAre">
-                    <h4>What is Project Leo?</h4>
-                    <p>Project Leo is an online based platform that supports creators those dealing especially in digital products. Where creators upload their content and users can access it at any time regardles of geographical location</p>
+        <main class="container py-5">
+            <div class="hero-panel rounded-4 p-4 p-md-5 mb-4">
+                <p class="text-uppercase small fw-semibold text-info mb-2">About Leo2</p>
+                <h1 class="display-5 fw-bold">A platform built for creators.</h1>
+                <p class="lead text-white-50 mb-0">Discover, support, and enjoy digital work wherever you are.</p>
+            </div>
+            <div class="row g-4">
+                <section class="col-md-6">
+                    <div class="surface-panel rounded-4 p-4 h-100">
+                        <h2 class="section-title h4">What is Project Leo?</h2>
+                        <p class="text-white-50 mb-0">Project Leo is an online platform that supports creators, especially those working with digital products. Creators can upload their content and users can access it from anywhere.</p>
+                    </div>
                 </section>
-                <section id="howWeDoIt">
-                    <h4>how?</h4>
-                    <p>Users pay a monthly subscription to enjoy from the wide range of digital products that creators upload</p>
+                <section class="col-md-6">
+                    <div class="surface-panel rounded-4 p-4 h-100">
+                        <h2 class="section-title h4">How does it work?</h2>
+                        <p class="text-white-50 mb-0">Users pay a monthly subscription to enjoy a wide range of digital products uploaded by talented creators.</p>
+                    </div>
                 </section>
-                <section id="ourSocials">
-                    <a href="http://facebook.com">
-                        <button class="btn btn-primary">facebook</button>
-                    </a>
+                <section class="col-12 text-center">
+                    <a class="btn btn-leo px-4" href="http://facebook.com">Follow us on Facebook</a>
                 </section>
             </div>
         </main>
-        <footer>
-            <span class="footnote">
-                PetersonTheMountain&copy; 2025.
-            </span>
+        <footer class="site-footer py-4 text-center text-white-50">
+            <span>PetersonTheMountain&copy; 2025.</span>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
